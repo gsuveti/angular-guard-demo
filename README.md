@@ -1,6 +1,8 @@
-# AngularDemo
+# Angular Guard Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+
+This project is a demo of Router Guards. It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+
 
 ## Development server
 
