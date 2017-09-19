@@ -4,7 +4,7 @@ import {Observable} from 'rxjs/Observable';
 import {Permissions} from './Permissions';
 
 @Injectable()
-class CanActivateFeature2 implements CanActivate {
+export class CanActivateFeature2 implements CanActivate {
   private rights: string[];
 
   constructor() {
@@ -17,4 +17,3 @@ class CanActivateFeature2 implements CanActivate {
     return Permissions.canActivate(this.rights, state);
   }
 }
-export default CanActivateFeature2;

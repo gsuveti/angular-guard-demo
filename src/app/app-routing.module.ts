@@ -3,7 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {Feature1Component} from './feature1/feature1.component';
 import {Permissions} from './util/Permissions';
 import {Feature2Component} from './feature2/feature2.component';
-import CanActivateFeature2 from './util/CanActivateFeature2';
+import {CanActivateFeature2} from './util/CanActivateFeature2';
 
 const routes: Routes = [
   {
